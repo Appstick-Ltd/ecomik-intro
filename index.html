@@ -9,12 +9,13 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/7fa5c351f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Ecomik Mobile App</title>
 </head>
 
 <body>
     <!-- header section -->
-    <header class="pt-[2%] px-[2%] lg:pt-10 flex justify-center items-center">
+    <header class="pt-[2%] px-[2%]  lg:pt-10 flex justify-center items-center ">
         <section>
             <!-- top logo section -->
             <section class="flex justify-center items-center w-full md:h-12">
@@ -36,9 +37,9 @@
                 </div>
             </section>
             <!-- header banner -->
-            <section class="w-full py-10 flex justify-center items-center">
-                <div class="lg:flex justify-center items-center">
-                    <div class="w-full ml-10 md:ml-0  lg:w-[50%]">
+            <section class="w-full py-10 h-[800px] lg:h-[700px]">
+                <div class="lg:flex justify-between items-center ">
+                    <div class="w-full ml-10 md:ml-0  ">
                         <div class="relative ">
                             <div class="text-[30px] md:text-[40px] lg:text-[60px] font-bold">
                                 <p class="p-0">Your Trusted </p>
@@ -57,49 +58,49 @@
                         </div>
                         <div class="flex justify-start gap-4 py-[32px]">
                             <button
-                                class="w-[80px] h-[40px] lg:w-[120px] lg:h-[50px] rounded-xl lg:rounded-3xl bg-[#7A63EC] text-white lg:text-[18px]">
-                                <a href="https://drive.google.com/file/d/16AfpS7FHKm6zrWFC3fwm6T3D9Y_rf8z7/view"
+                                class="w-[80px] h-[40px] lg:w-[120px] lg:h-[50px] rounded-xl lg:rounded-3xl bg-[#7A63EC]  lg:text-[18px]">
+                                <a class="text-white font-semibold hover:underline" href="https://drive.google.com/file/d/16AfpS7FHKm6zrWFC3fwm6T3D9Y_rf8z7/view"
                                     target="_blank" download>User App</a>
                             </button>
                             <button
                                 class="w-[100px] h-[40px] lg:w-[120px] lg:h-[50px] rounded-xl lg:rounded-3xl bg-[#F8AF39] text-white lg:text-[18px]">
-                                <a href="https://drive.google.com/file/d/16YsaTdReNjR2LjLUY5dOHouwi0MDMsJl/view"
+                                <a class="text-white font-semibold hover:underline" href="https://drive.google.com/file/d/16YsaTdReNjR2LjLUY5dOHouwi0MDMsJl/view"
                                     target="_blank" download>Delivery App</a>
                             </button>
                             <button
                                 class="w-[80px] h-[40px] lg:w-[120px] lg:h-[50px] rounded-xl lg:rounded-3xl bg-[#181A36] text-white lg:text-[18px]">
-                                <a href="https://drive.google.com/file/d/1UtJibrZhsqPNi_JtI8w58mJmFrKcPv41/view"
+                                <a class="text-white font-semibold hover:underline" href="https://drive.google.com/file/d/1UtJibrZhsqPNi_JtI8w58mJmFrKcPv41/view"
                                     target="_blank" download>Store App</a>
                             </button>
                         </div>
                     </div>
-                    <div class="w-[90%] lg:w-[50%] flex justify-center items-center relative ">
-                        <div>
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="relative w-full flex justify-center">
+                        <div class="">
+                            <div id="carouselExampleIndicators" class=" carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators ">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active "></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                                 </ol>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" data-bs-interval="100">
                                         <p class="text-center text-[#7A63EC] text-[20px] font-semibold pb-6">User App
                                         </p>
-                                        <img class="d-block h-[300px] lg:h-full" src="./image/phone1.png"
-                                            alt="First slide">
+                                        <img class="d-block h-[300px] lg:w-[600px] lg:h-[475px]"
+                                            src="./image/phone1.png" alt="First slide">
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" data-bs-interval="100">
                                         <p class="text-center text-[#7A63EC] text-[20px] font-semibold pb-6">Store App
                                         </p>
-                                        <img class="d-block h-[300px] lg:h-full" src="./image/phone2.png"
-                                            alt="Second slide">
+                                        <img class="d-block  h-[300px] lg:w-[600px] lg:h-[475px]"
+                                            src="./image/phone2.png" alt="Second slide">
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" data-bs-interval="100">
                                         <p class="text-center text-[#7A63EC] text-[20px] font-semibold pb-6">Delivery
                                             App
                                         </p>
-                                        <img class="d-block h-[300px] lg:h-full" src="./image/phone3.png"
-                                            alt="Third slide">
+                                        <img class="d-block h-[300px] lg:w-[600px] lg:h-[475px]"
+                                            src="./image/phone3.png" alt="Third slide">
                                     </div>
                                 </div>
                             </div>
@@ -124,25 +125,25 @@
                 </div>
                 <div class="hidden lg:block absolute top-20  w-full h-[155px]"><img src="./image/AbstractBg.png" alt=""
                         srcset=""></div>
-                <div class="md:mx-40 my-10">
-                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4  text-white text-center ">
+                <div class=" my-10">
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8  text-white text-center ">
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon.png" alt=""></img>
                             </div>
-                            <p>Super Speeds &Statibility</p>
+                            <p class="pt-[10px]">Super Speeds &Statibility</p>
                         </div>
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon(1).png" alt=""> </img>
                             </div>
-                            <p>Android & iOShybrid app</p>
+                            <p class="pt-[10px]">Android & iOShybrid app</p>
                         </div>
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon(2).png" alt=""> </img>
                             </div>
-                            <p>Google & Facebook
+                            <p class="pt-[10px]">Google & Facebook
                                 social login</p>
 
                         </div>
@@ -150,7 +151,7 @@
                             <div class="flex justify-center">
                                 <img src="./image/Icon(3).png" alt=""></img>
                             </div>
-                            <p>Flexible and
+                            <p class="pt-[10px]">Flexible and
                                 Compatibile</p>
 
                         </div>
@@ -158,14 +159,14 @@
                             <div class="flex justify-center">
                                 <img src="./image/Icon(4).png" alt=""></img>
                             </div>
-                            <p>Easily Customization</p>
+                            <p class="pt-[10px]">Easily Customization</p>
 
                         </div>
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon(5).png" alt=""></img>
                             </div>
-                            <p>Compatible with
+                            <p class="pt-[10px]">Compatible with
                                 management solution</p>
 
                         </div>
@@ -173,7 +174,7 @@
                             <div class="flex justify-center">
                                 <img src="./image/Icon(6).png" alt=""></img>
                             </div>
-                            <p>Multi Language
+                            <p class="pt-[10px]">Multi Language
                                 Support</p>
 
                         </div>
@@ -181,7 +182,7 @@
                             <div class="flex justify-center">
                                 <img src="./image/Icon(7).png" alt=""></img>
                             </div>
-                            <p>Secure payment
+                            <p class="pt-[10px]">Secure payment
                                 Integration</p>
 
                         </div>
@@ -189,28 +190,28 @@
                             <div class="flex justify-center">
                                 <img src="./image/Icon(8).png" alt=""></img>
                             </div>
-                            <p>Push Notification</p>
+                            <p class="pt-[10px]">Push Notification</p>
 
                         </div>
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon(9).png" alt=""></img>
                             </div>
-                            <p>Invitation link</p>
+                            <p class="pt-[10px]">Invitation link</p>
 
                         </div>
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon(10).png" alt=""></img>
                             </div>
-                            <p>Live chat </p>
+                            <p class="pt-[10px]">Live chat </p>
 
                         </div>
                         <div class="w-[160px]">
                             <div class="flex justify-center">
                                 <img src="./image/Icon(11).png" alt=""></img>
                             </div>
-                            <p>Order Management</p>
+                            <p class="pt-[10px]">Order Management</p>
                         </div>
                     </div>
                 </div>
@@ -258,7 +259,7 @@
                                 class="text-white" download> Download User App</a></button>
                     </div>
                     <div>
-                        <img class="hidden lg:block absolute top-0" src="./image/group.png" alt="">
+                        <img class="hidden lg:block absolute top-0 right-0" src="./image/group.png" alt="">
                     </div>
                 </div>
             </div>
